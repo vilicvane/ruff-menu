@@ -1,3 +1,5 @@
+# Ruff Menu
+
 Awesome Menu for Ruff LCD (lcd1602).
 
 GitHub <https://github.com/vilic/ruff-menu>
