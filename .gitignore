@@ -1,0 +1,6 @@
+/.vscode/
+
+/src/debug/
+/node_modules/
+/ruff_modules/
+/bld/

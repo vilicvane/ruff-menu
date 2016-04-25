@@ -1,0 +1,24 @@
+{
+    "name": "menu",
+    "version": "0.1.0",
+    "description": "Awesome Menu for Ruff LCD (lcd1602).",
+    "author": "vilicvane",
+    "license": "MIT",
+    "main": "bld/index.js",
+    "typings": "bld/index.d.ts",
+    "scripts": {
+        "build": "tsc",
+        "incremental-build": "tsc -w",
+        "test": "mocha"
+    },
+    "devDependencies": {
+        "source-map-support": "latest",
+        "typescript": "latest"
+    },
+    "ruff": {
+        "dependencies": {
+            "promise": "^0.1.2"
+        },
+        "devDependencies": {}
+    }
+}

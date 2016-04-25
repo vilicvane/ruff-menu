@@ -1,0 +1,14 @@
+.vscode/**
+coverage/**
+src/**
+bld/test/**
+bld/debug/**
+test/**
+typings/**
+
+.*
+
+*.zip
+*.tar
+
+tsconfig.json

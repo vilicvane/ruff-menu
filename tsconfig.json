@@ -1,0 +1,20 @@
+{
+    "compilerOptions": {
+        "target": "es5",
+        "module": "commonjs",
+        "noEmitOnError": true,
+        "noImplicitAny": true,
+        "noImplicitReturns": true,
+        "preserveConstEnums": true,
+        "removeComments": true,
+        "declaration": true,
+        "sourceMap": true,
+        "outDir": "bld"
+    },
+    "exclude": [
+        "bld",
+        "test",
+        "ruff_modules",
+        "node_modules"
+    ]
+}
