@@ -4,6 +4,8 @@ Awesome Menu for Ruff LCD (lcd1602).
 
 GitHub <https://github.com/vilic/ruff-menu>
 
+![LCD](https://cloud.githubusercontent.com/assets/970430/14779534/17cbf1d2-0b0b-11e6-9025-bc528a3f96f2.jpg)
+
 ## Install
 
 ```sh
@@ -15,6 +17,8 @@ rap install menu
 Here's a example creating multi-level menu:
 
 ```js
+'use strict';
+
 var Menu = require('menu');
 
 var lcd;
