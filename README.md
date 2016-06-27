@@ -31,7 +31,7 @@ $.ready(function (error) {
     }
 
     lcd = $('#lcd');
-    lcd.cursorOff();
+    lcd.hideCursor();
 
     menu = new Menu(lcd, [
         {
@@ -80,7 +80,7 @@ $.ready(function (error) {
     menu
         .show()
         .then(function (result) {
-            lcd.print(result || '(empty)');
+            lcd.print('result:', result || '(empty)');
         });
 });
 

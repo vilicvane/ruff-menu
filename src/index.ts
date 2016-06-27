@@ -42,15 +42,24 @@ export class Menu<T> {
         this._root = new MenuList(screen, data, true);
     }
 
+    private _assertActive(): void {
+        if (!this._active) {
+            throw new Error('Menu is not active, call `show()` first');
+        }
+    }
+
     previous(): void {
+        this._assertActive();
         this._active.previous();
     }
 
     next(): void {
+        this._assertActive();
         this._active.next();
     }
 
     select(): void {
+        this._assertActive();
         this._active.select();
     }
 
